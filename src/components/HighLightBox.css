@@ -1,0 +1,38 @@
+.highLightBox {
+  background-color: #413e65;
+  width: 100%;
+  height: 40rem;
+  color: rgb(255, 255, 255);
+}
+
+.highLightBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highLightBoxContainer > h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 600;
+  word-wrap: break-word;
+  width: 28rem;
+  height: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 3.5rem;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 1.8rem;
+}
+
+.center {
+  display: flex;
+  margin-bottom: 1.8rem;
+  margin-right: 10rem;
+}
+
+.bottom {
+  display: flex;
+}

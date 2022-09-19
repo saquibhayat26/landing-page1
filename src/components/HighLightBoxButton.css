@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  width: 19rem;
+  height: 4.3rem;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.button > img {
+  margin-left: 1.5rem;
+}
+
+.button > p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 1.8rem;
+  text-transform: capitalize;
+}

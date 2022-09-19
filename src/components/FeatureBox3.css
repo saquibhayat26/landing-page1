@@ -1,0 +1,55 @@
+.featureBox3 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 40rem;
+  color: rgb(255, 255, 255);
+}
+
+.featureBox3Container {
+  background: url(./../image//5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.featureBox3Container__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-right: 32rem;
+  padding-top: 9rem;
+}
+
+.featureBox3Container__desc > h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 600;
+  width: 28rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+
+.featureBox3Container__desc > p {
+  width: 28rem;
+  letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+.featureBox3Container__desc > button {
+  width: 11.313rem;
+  height: 4rem;
+  font-family: CircularStd;
+  font-size: 1.181rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.79);
+  border: none;
+  border-radius: 8px;
+  background-color: yellow;
+  margin-right: 17rem;
+}
