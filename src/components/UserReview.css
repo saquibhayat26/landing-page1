@@ -54,8 +54,29 @@
 
 .userDetails > img {
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .userDetails > div > p {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 900px) {
+  .userReview {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    color: rgb(0, 0, 0);
+  }
+
+  .UserReviewContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+  }
+  .userCommentsContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }

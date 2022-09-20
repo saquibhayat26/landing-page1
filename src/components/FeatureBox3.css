@@ -52,4 +52,39 @@
   border-radius: 8px;
   background-color: yellow;
   margin-right: 17rem;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.featureBox3Container__desc > button:hover {
+  scale: 1.2;
+  color: rgb(238, 30, 30);
+}
+
+@media only screen and (max-width: 900px) {
+  .featureBox3 {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+  }
+
+  .featureBox3Container {
+    background: url(./../image//5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .featureBox3Container__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-top: 5rem;
+    padding-left: 16rem;
+    padding-top: -5rem;
+  }
 }

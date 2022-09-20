@@ -11,7 +11,7 @@ const Footer = () => {
           <li> Privacy Policy</li>
           <li>Terms and Conditions</li>
         </ul>
-        <p>© 2020 UXTheme, All Rights Reserved</p>
+        <p className="footer__bottom">© 2022 UXTheme, All Rights Reserved</p>
       </div>
     </div>
   );

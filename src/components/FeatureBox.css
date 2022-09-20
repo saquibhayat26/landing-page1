@@ -82,3 +82,39 @@
   object-fit: contain;
   background-color: transparent;
 }
+
+@media only screen and (max-width: 900px) {
+  .featureBox {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    color: black;
+  }
+
+  .featureBox__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .featureBox__containerLeft {
+    margin-right: -24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 28rem;
+  }
+  .featureBox__containerRight {
+    display: flex;
+  }
+
+  .featureBox__containerRight > img {
+    width: 18rem;
+    height: 24rem;
+    margin-left: -8rem;
+    object-fit: contain;
+    background-color: transparent;
+  }
+}

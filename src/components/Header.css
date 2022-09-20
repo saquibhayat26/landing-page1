@@ -134,4 +134,43 @@
   height: 3.5rem;
   border: none;
   cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.header__btn:hover {
+  scale: 1.1;
+  color: rgb(238, 30, 30);
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    background-color: #5454d4;
+    width: 100%;
+    height: auto;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .header__containerLeft {
+    width: 100%;
+  }
+  .header__containerLeft > img {
+    width: 18rem;
+    height: 24rem;
+    object-fit: contain;
+    background-color: transparent;
+    margin-right: -4rem;
+  }
+
+  .header__containerRight {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -22rem;
+  }
+  /*Small smartphones [325px -> 425px]*/
 }
