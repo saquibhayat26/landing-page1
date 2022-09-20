@@ -36,3 +36,35 @@
 .bottom {
   display: flex;
 }
+
+@media only screen and (max-width: 900px) {
+  .highLightBox {
+    background-color: #413e65;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+  }
+
+  .highLightBoxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+    margin-right: 0;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+}
