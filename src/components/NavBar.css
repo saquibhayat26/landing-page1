@@ -1,10 +1,9 @@
 .nav__menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   width: 100%;
   padding: 1.5rem;
-  /* border: 1px solid; */
 }
 
 .nav__menuLeft > p {
@@ -15,8 +14,8 @@
 
 .nav__menuCenter > ul {
   display: flex;
-  margin-left: -1rem;
-  /* border: 1px solid; */
+  margin-left: 28rem;
+  margin-right: 28rem;
 }
 
 .nav__menuCenter > ul > li {

@@ -32,6 +32,10 @@
   text-align: center;
 }
 
+.featureBox2Container__img {
+  display: flex;
+}
+
 .img1 {
   cursor: pointer;
   height: 24rem;

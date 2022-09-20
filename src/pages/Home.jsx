@@ -3,6 +3,7 @@ import FeatureBox from "../components/FeatureBox";
 import FeatureBox2 from "../components/FeatureBox2";
 import FeatureBox3 from "../components/FeatureBox3";
 import FeatureBox4 from "../components/FeatureBox4";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import HighLightBox from "../components/HighLightBox";
 import UserReview from "../components/UserReview";
@@ -18,6 +19,7 @@ const Home = () => {
         <FeatureBox3 />
         <UserReview />
         <FeatureBox4 />
+        <Footer />
       </div>
     </div>
   );
